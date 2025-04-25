@@ -218,6 +218,7 @@ body::after {
 }
 
 @media (max-width: 1080px) {
+  
   .title-phrase {
     font-size: 2rem;
     width: 25rem;
@@ -230,6 +231,7 @@ body::after {
 
   .section-top {
     margin-top: 8rem;
+
   }
 
   .section-top p {
@@ -239,6 +241,17 @@ body::after {
 
   .hero-img {
     width: 25rem;
+  }
+
+  .border-input {
+    width: 16rem;
+
+  }
+
+  .box-input {
+    width: 12rem;
+    height: 3rem;
+    z-index: 10;
   }
 
   .blur::after {
