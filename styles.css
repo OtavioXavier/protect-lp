@@ -217,7 +217,7 @@ body::after {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
   
   .title-phrase {
     font-size: 2rem;
