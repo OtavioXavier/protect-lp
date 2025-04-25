@@ -1,0 +1,98 @@
+.servicos-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50% 50%;
+  margin-top: 10rem;
+}
+
+.servico {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  -webkit-box-shadow: 0 0 5px 5px rgba(255, 215, 0, 0.15);
+  -moz-box-shadow: 0 0 5px 5px rgba(255, 215, 0, 0.15);
+  box-shadow: 0 0 5px 5px rgba(255, 215, 0, 0.15);
+}
+
+#assistencia-tecnica {
+  background: url("./assets/servico-assistencia-tecnica.png") center no-repeat;
+}
+
+#controle-acesso {
+  background: url("./assets/servico-controle-acesso.png") center no-repeat;
+}
+
+#fibra-otica {
+  background: url("./assets/servico-fibra-otica.png") center no-repeat;
+}
+
+#instalacao-redes {
+  background: url("./assets/servico-instalacao-redes.png") center no-repeat;
+}
+
+.servico h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.servico p {
+  font-size: 1rem;
+  text-align: left;
+  width: 15rem;
+  font-weight: 300;
+  color: #a6a6a6;
+}
+
+.servico-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: baseline;
+}
+
+.servico button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffd700;
+  border: none;
+  padding: 10px 15px;
+  color: #070c15;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 2rem;
+  gap: 0.2rem;
+}
+
+.servico button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.servico button:hover svg {
+  transform: translateX(1rem);
+}
+
+@media (max-width: 1080px) {
+  .servicos-grid {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .servico h1 {
+    font-size: 1.5rem;
+    width: 15rem;
+    text-align: left;
+  }
+  
+}

@@ -1,0 +1,133 @@
+#contatos .section-top {
+  margin: 6rem 0rem;
+}
+
+.card-texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-texts .texts h1 {
+  font-size: 3rem;
+  width: 20rem;
+  font-weight: 500;
+}
+
+.card-texts .texts h1 b {
+  color: #ffd700;
+}
+
+.card-texts .texts p {
+  color: #a6a6a6;
+  font-weight: lighter;
+}
+
+.card {
+  width: 26rem;
+  height: 16rem;
+  background: rgb(7, 12, 21);
+  background: linear-gradient(
+    153deg,
+    rgba(7, 12, 21, 0.2) 34%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(7, 12, 21, 0.2) 66%
+  );
+  -webkit-box-shadow: 0px 0px 5px 4px rgba(255, 238, 150, 0.2);
+  -moz-box-shadow: 0px 0px 5px 4px rgba(255, 238, 150, 0.2);
+  box-shadow: 0px 0px 5px 4px rgba(255, 238, 150, 0.2);
+  border-radius: 36px;
+  padding: 1.6rem;
+}
+
+.card main .textos h1 {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.card main .textos p {
+  font-weight: 400;
+}
+
+.card main .textos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.outer-input {
+  margin-top: 2rem;
+  width: full;
+  height: 3rem;
+  background-color: #ffffff3c;
+  border: #a6a6a6 1px solid;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.25rem 1rem 1rem;
+}
+
+.outer-input input {
+  width: 15rem;
+  height: 2rem;
+  background-color: transparent;
+  outline: transparent;
+  border: none;
+  color: #fff;
+}
+.outer-input input::placeholder {
+  color: #d9d9d9;
+}
+
+.button-send {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 36rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-send:hover {
+  transition: all 0.3s;
+  -webkit-box-shadow: -12px 0px 106px 0px rgba(255, 215, 0, 1);
+  -moz-box-shadow: -12px 0px 106px 0px rgba(255, 215, 0, 1);
+  box-shadow: -12px 0px 106px 0px rgba(255, 215, 0, 1);
+}
+
+.button-send svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.contatos-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.contatos-icons svg{
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width: 1080px) {
+  .section-top h1 {
+        font-size: 1.5rem;
+  }
+
+  .card-texts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
