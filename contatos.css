@@ -87,7 +87,7 @@
   width: 2.5rem;
   background-color: #ffd700;
   border: none;
-  border-radius: 36rem;
+  border-radius: 36px;
   transition: all 0.3s;
   cursor: pointer;
   display: flex;
