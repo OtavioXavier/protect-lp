@@ -105,6 +105,7 @@ body::after {
 
 .box-input {
   width: 20rem;
+  height: 3rem;
   background-color: transparent;
   outline: transparent;
   border: none;
@@ -118,6 +119,7 @@ body::after {
   border: none;
   border-radius: 36rem;
   cursor: pointer;
+  font-weight: bold;
   transition: all 0.3s;
 }
 
@@ -187,6 +189,7 @@ body::after {
   gap: 0.6rem;
   text-align: center;
   align-items: center;
+  margin-top: 10rem;
 }
 
 .section-top h1 {
@@ -244,7 +247,6 @@ body::after {
 
   .border-input {
     width: 16rem;
-
   }
 
   .box-input {
